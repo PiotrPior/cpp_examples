@@ -13,9 +13,14 @@ double obliczSrednia(const float tablica[], int size) {
 }
 
 void menu(float tablica[], int size) {
-    cout << "Podaj " << size << " liczb:" << endl;
-    for (int j = 0; j < size; j++) {
-        cin >> tablica[j];
+    int j = 0;
+    while (true) {
+        if (j >= size) {
+            break;
+        } else {
+            cin >> tablica[j];
+        }
+        j++;
     }
 }
 
