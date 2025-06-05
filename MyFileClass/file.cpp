@@ -1,4 +1,5 @@
 #include "file.hpp"
+#include "analyzefile.hpp"
 
 // Definicja metody
 void File::saveFile()
@@ -35,3 +36,4 @@ void File::showFile()
         std::cout << line << std::endl;
     }
 }
+
