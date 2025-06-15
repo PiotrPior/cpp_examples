@@ -1,3 +1,0 @@
-g++ s_wazona.cpp -o s_wazona
-ls
-./s_wazona 
